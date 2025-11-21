@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Copy of Future Researcher Analyzer",
+  "description": "Analyze your facial expression to discover your future research field at POSTECH.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
