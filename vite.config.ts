@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
+      base: '/-/',  // ★★★ 여기! 이 줄을 꼭 추가해야 합니다! ★★★
       server: {
         port: 3000,
         host: '0.0.0.0',
